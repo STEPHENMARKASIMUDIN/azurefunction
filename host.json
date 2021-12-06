@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "Credentials": {
+    "APIKey": "563492ad6f9170000100000131ac3fab7924481281a3207d85ae3935"
+  }
+}
