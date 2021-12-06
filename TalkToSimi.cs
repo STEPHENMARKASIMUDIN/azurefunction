@@ -62,8 +62,8 @@ namespace AzureFunctionTest
             }
             catch (Exception ex)
             {
-
-                return new BadRequestObjectResult(ex.ToString());
+                Console.Write(ex.ToString());
+                return new BadRequestObjectResult("Something went wrong!");
             }
 
             return new OkObjectResult(pexelResult);
